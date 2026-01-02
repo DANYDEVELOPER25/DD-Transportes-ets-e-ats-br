@@ -1,108 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>D&D Transportes ATS & ETS BR</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#0f172a;
-  color:#e5e7eb;
-}
-header{
-  background:linear-gradient(135deg,#1e293b,#020617);
-  padding:50px 20px;
-  text-align:center;
-}
-nav{
-  background:#020617;
-  padding:15px;
-  position:sticky;
-  top:0;
-}
-nav ul{
-  list-style:none;
-  margin:0;
-  padding:0;
-  display:flex;
-  justify-content:center;
-  gap:25px;
-}
-nav a{
-  color:#e5e7eb;
-  text-decoration:none;
-  font-weight:bold;
-}
-nav a:hover{
-  color:#38bdf8;
-}
-section{
-  padding:60px 20px;
-  max-width:1000px;
-  margin:auto;
-}
-h2{
-  color:#38bdf8;
-}
-footer{
-  background:#020617;
-  text-align:center;
-  padding:20px;
-  color:#94a3b8;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D&D Transportes | ATS & ETS BR</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #0f172a; color: #e5e7eb; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #1e293b, #020617); padding: 40px 20px; text-align: center; }
+    .logo-area { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .logo { width: 90px; height: 90px; border-radius: 50%; background: #38bdf8; color: #020617; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; box-shadow: 0 8px 20px rgba(0,0,0,0.5); }
+    header h1 { font-size: 2.5rem; color: #38bdf8; }
+    header p { margin-top: 10px; font-size: 1.1rem; color: #cbd5f5; }
+    nav { background: #020617; display: flex; justify-content: center; gap: 20px; padding: 15px; }
+    nav a { color: #e5e7eb; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #38bdf8; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    section h2 { color: #38bdf8; margin-bottom: 20px; font-size: 2rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #020617; border-radius: 12px; padding: 25px; box-shadow: 0 10px 25px rgba(0,0,0,0.4); }
+    .card h3 { color: #7dd3fc; margin-bottom: 10px; }
+    footer { background: #020617; text-align: center; padding: 25px; color: #94a3b8; }
+    footer span { color: #38bdf8; }
+    .discord-btn { position: fixed; bottom: 25px; right: 25px; z-index: 9999; display: flex; align-items: center; gap: 10px; padding: 15px 22px; background: #5865F2; color: #fff; text-decoration: none; font-weight: bold; border-radius: 50px; box-shadow: 0 8px 20px rgba(0,0,0,0.4); transition: 0.3s; }
+    .discord-btn:hover { background: #4752c4; }
+    .discord-icon { width: 22px; height: 22px; filter: invert(1); }
+  </style>
 </head>
-
 <body>
 
-<header id="inicio">
-  <h1>D&D Transportes</h1>
-  <p>ATS & ETS2 • TruckersMP • Transporte virtual</p>
-</header>
+  <header>
+    <div class="logo-area">
+      <div class="logo">D&D</div>
+      <h1>D&D Transportes</h1>
+      <p>ATS & ETS BR • Transporte virtual com excelência</p>
+    </div>
+  </header>
 
-<nav>
-  <ul>
-    <li><a href="#inicio">Início</a></li>
-    <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#servicos">Serviços</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ul>
-</nav>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#jogos">Jogos</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-<section id="sobre">
-  <h2>Sobre a Empresa</h2>
-  <p>A D&D Transportes é uma empresa virtual focada em ETS2 e ATS, com base em Milano.</p>
-</section>
+  <section id="sobre">
+    <h2>Sobre a D&D Transportes</h2>
+    <p>A <strong>D&D Transportes ATS & ETS BR</strong> é uma empresa virtual dedicada ao transporte de cargas nos simuladores <strong>Euro Truck Simulator 2</strong> e <strong>American Truck Simulator</strong>. Nosso objetivo é oferecer realismo, organização e diversão para todos os motoristas virtuais.</p>
+  </section>
 
-<section id="servicos">
-  <h2>Serviços</h2>
-  <p>Transportes nacionais e internacionais, comboios e roleplay.</p>
-</section>
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Transporte Nacional</h3>
+        <p>Entregas em todo o Brasil virtual com pontualidade e segurança.</p>
+      </div>
+      <div class="card">
+        <h3>Transporte Internacional</h3>
+        <p>Rotas pela Europa e Estados Unidos nos principais mapas do ETS2 e ATS.</p>
+      </div>
+      <div class="card">
+        <h3>Comboios</h3>
+        <p>Participação em comboios oficiais e eventos multiplayer.</p>
+      </div>
+    </div>
+  </section>
 
-<section id="contato">
-  <h2>Contato</h2>
-  <p>Entre em contato pelo Discord da empresa.</p>
-</section>
+  <section id="jogos">
+    <h2>Jogos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Euro Truck Simulator 2</h3>
+        <p>Frotas personalizadas, skins próprias e rotas realistas.</p>
+      </div>
+      <div class="card">
+        <h3>American Truck Simulator</h3>
+        <p>Estradas americanas com caminhões modernos e clássicos.</p>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>© D&D Transportes ATS & ETS BR</p>
-</footer>
-<a href="https://discord.gg/5NSCY4xNAh" 
-   target="_blank" 
-   class="discord-btn">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
-    <path fill="white" d="M104.4 104.8c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.3-5 10.2-11.1 0-6.1-4.6-11.1-10.2-11.1zm36.2 0c-5.7 0-10.2 5-10.2 11.1 0 6.1 4.6 11.1 10.2 11.1 5.7 0 10.3-5 10.2-11.1 0-6.1-4.6-11.1-10.2-11.1z"/>
-    <path fill="white" d="M189.5 20h-134C24.5 20 10 34.5 10 52.5v135C10 205.5 24.5 220 42.5 220h113l-5.3-18.5 12.8 11.9 12.1 11.2 21.6 19.4V52.5c0-18-14.5-32.5-32.2-32.5zM163.1 155s-5.1-6.1-9.4-11.5c18.7-5.3 25.8-17 25.8-17-5.9 3.9-11.5 6.6-16.6 8.5-7.2 3-14.1 5-20.9 6.3-13.9 2.6-26.7 1.9-37.9-0.1-8.4-1.6-15.7-3.7-21.8-6.3-3.4-1.3-7.1-3-10.9-5.2-0.5-0.3-1-0.5-1.4-0.8-0.2-0.1-0.3-0.2-0.4-0.2-1.8-1-2.8-1.7-2.8-1.7s6.8 11.4 24.8 16.9c-4.3 5.4-9.5 11.8-9.5 11.8-31.4-1-43.3-21.6-43.3-21.6 0-45.7 20.4-82.7 20.4-82.7 20.4-15.3 39.8-14.
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para fazer parte da nossa empresa virtual.</p>
+    <p><strong>Email:</strong> contato@ddtransportes.com.br</p>
+
+    <a class="discord-btn" href="https://discord.gg/SEUCONVITE" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="discord-icon" />
+      Entrar no Discord
+    </a>
+  </section>
+
+  <style>
+    .discord-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 22px;
+      background: #5865F2;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      transition: 0.3s;
+    }
+    .discord-btn:hover {
+      background: #4752c4;
+    }
+  </style>
+
+  <footer>
+    <p>© 2026 <span>D&D Transportes ATS & ETS BR</span> • Todos os direitos reservados</p>
+  </footer>
 
 </body>
 </html>
-
-
-
-
-
-
-
